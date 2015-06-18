@@ -1,1 +1,1 @@
-This is where I write code to practice my C programming skills
+This is where I practice my C programming skills
