@@ -10,10 +10,13 @@ int ** alloc_matrix (int rows, int cols)
 {
     int ** ptr = malloc ( rows * sizeof (int *));
     
-    int i;
-    for (i = 0; i < rows; i++)
-    {
-        ptr[i] = malloc (cols * sizeof(int));
+    if (ptr){
+
+        int i;
+        for (i = 0; i < rows; i++)
+        {
+            ptr[i] = malloc (cols * sizeof(int));
+        }
     }
     return ptr;
 }
