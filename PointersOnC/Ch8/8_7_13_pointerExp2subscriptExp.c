@@ -19,7 +19,7 @@ main()
     printPtr ("*array2", *array2);
     printPtr ("== array2[0]", array2[0]);
     printf ("==========================\n");
-    printPtr ("*(array2 + 2)", *(array2+2)); 
+    printPtr ("*(array2 + 2)",*(array2+2)); 
     printPtr ("== array2[2]", array2[2]); 
     printf ("==========================\n");
     printPtr ("*(array2 + 1) + 4", *(array2+1)+4); //注意和下面两个的区别
